@@ -15195,6 +15195,7 @@ GameObject:
   - component: {fileID: 429949211}
   - component: {fileID: 429949213}
   - component: {fileID: 429949212}
+  - component: {fileID: 429949214}
   m_Layer: 0
   m_Name: bomb
   m_TagString: Untagged
@@ -15253,6 +15254,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 429949210}
+--- !u!65 &429949214
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 429949210}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 56.358624, y: 87.005035, z: 1}
+  m_Center: {x: -0.34344196, y: -9.949878, z: 0}
 --- !u!1 &483648154
 GameObject:
   m_ObjectHideFlags: 0
@@ -19880,6 +19893,7 @@ GameObject:
   - component: {fileID: 522235490}
   - component: {fileID: 522235492}
   - component: {fileID: 522235491}
+  - component: {fileID: 522235493}
   m_Layer: 0
   m_Name: chakarm
   m_TagString: Untagged
@@ -19938,6 +19952,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 522235489}
+--- !u!65 &522235493
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 522235489}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!1001 &530235812
 Prefab:
   m_ObjectHideFlags: 0
@@ -27884,6 +27910,7 @@ GameObject:
   - component: {fileID: 1931560827}
   - component: {fileID: 1931560829}
   - component: {fileID: 1931560828}
+  - component: {fileID: 1931560830}
   m_Layer: 0
   m_Name: nila
   m_TagString: Untagged
@@ -27942,6 +27969,18 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1931560826}
+--- !u!65 &1931560830
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1931560826}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 86.99615, y: 84.040764, z: 1}
+  m_Center: {x: 0.61602443, y: 0.42320788, z: 0}
 --- !u!198 &1973091903 stripped
 ParticleSystem:
   m_PrefabParentObject: {fileID: 198224076935918434, guid: 4679b7d4913ed45dcadbf24be51fcd6d,
