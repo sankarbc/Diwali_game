@@ -6,9 +6,9 @@ public class touch : MonoBehaviour {
     public Canvas show_up;
     public Canvas show_down;
     public GameObject nilaa;
-   
-   
- 
+    public ParticleSystem burst_particle;
+
+
     void Start () {
         show_up.enabled = true;
         show_down.enabled = false;
@@ -27,9 +27,17 @@ public class touch : MonoBehaviour {
            
             show_down.enabled = true;
             nilaa.SetActive(true);
-           
-           
+          StartCoroutine(blast());
         }
         
+
+    }
+    IEnumerator blast()
+    {
+        burst_particle.Play();
+        yield return new WaitForSeconds(9);
+     
+          nilaa.SetActive(false);
+
     }
 }
