@@ -24,4 +24,12 @@ public class Cate : MonoBehaviour {
     {
         Application.LoadLevel("cracker2");
     }
+    public void wishes()
+    {
+        Application.LoadLevel("Share_wishes");
+    }
+    public void kill()
+    {
+        Application.LoadLevel("naraga");
+    }
 }

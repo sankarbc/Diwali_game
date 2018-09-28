@@ -36,4 +36,11 @@ public class Menu : MonoBehaviour {
     {
         Application.LoadLevel("cate");
     }
+
+    public void story_Scene()
+    {
+        Application.LoadLevel("story");
+    }
+
+
 }
