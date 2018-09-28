@@ -16,11 +16,11 @@ public class Cate : MonoBehaviour {
             Application.LoadLevel("Menu");
         }
     }
-    public void fireworks()
+    public void cracker()
     {
         Application.LoadLevel("cracker1");
     }
-    public void newfire()
+    public void firework()
     {
         Application.LoadLevel("cracker2");
     }
