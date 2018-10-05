@@ -10,7 +10,8 @@ public class touch : MonoBehaviour
     public ParticleSystem burst_particle;
    
     public float delay_time;
- 
+    public float delay_thiri;
+
     public bool isdestroy;
     public Sound sound, thiri_sound;
     public static int click;
@@ -103,6 +104,86 @@ public class touch : MonoBehaviour
                 StartCoroutine(blast());
             
             }
+            else if (nilaa.name == "vedi_y")
+            {
+
+                show_show.enabled = true;
+                nilaa.SetActive(true);
+                StartCoroutine(blast());
+
+            }
+            else if (nilaa.name == "heart")
+            {
+
+                show_show.enabled = true;
+                nilaa.SetActive(true);
+                StartCoroutine(blast());
+
+            }
+            else if (nilaa.name == "vedi_apayam")
+            {
+
+                show_show.enabled = true;
+                nilaa.SetActive(true);
+                StartCoroutine(blast());
+
+            }
+            else if (nilaa.name == "2_shot")
+            {
+
+                show_show.enabled = true;
+                nilaa.SetActive(true);
+                StartCoroutine(blast());
+
+            }
+            else if (nilaa.name == "bomb_yellow")
+            {
+
+                show_show.enabled = true;
+                nilaa.SetActive(true);
+                StartCoroutine(blast());
+
+            }
+            else if (nilaa.name == "spark_bomb")
+            {
+
+                show_show.enabled = true;
+                nilaa.SetActive(true);
+                StartCoroutine(blast());
+
+            }
+            else if (nilaa.name == "bomb_new")
+            {
+
+                show_show.enabled = true;
+                nilaa.SetActive(true);
+                StartCoroutine(blast());
+
+            }
+            else if (nilaa.name == "bomb_dot")
+            {
+
+                show_show.enabled = true;
+                nilaa.SetActive(true);
+                StartCoroutine(blast());
+
+            }
+            else if (nilaa.name == "5_shot")
+            {
+
+                show_show.enabled = true;
+                nilaa.SetActive(true);
+                StartCoroutine(blast());
+
+            }
+            else if (nilaa.name == "7_shot")
+            {
+
+                show_show.enabled = true;
+                nilaa.SetActive(true);
+                StartCoroutine(blast());
+
+            }
 
         }
 
@@ -111,7 +192,7 @@ public class touch : MonoBehaviour
     {
 
         thiri_sound.play();
-        yield return new WaitForSeconds(1f);
+        yield return new WaitForSeconds(delay_thiri);
       
        
         sound.play();
