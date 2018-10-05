@@ -14,6 +14,25 @@ public class Themescene : MonoBehaviour {
         Application.LoadLevel("Theme2");
     }
 
+    public void Theme3()
+    {
+        Application.LoadLevel("Theme3");
+    }
+
+    public void Theme4()
+    {
+        Application.LoadLevel("Theme4");
+    }
+
+    public void Theme5()
+    {
+        Application.LoadLevel("Theme5");
+    }
+    public void Theme6()
+    {
+        Application.LoadLevel("Theme6");
+    }
+
 
 
     void Update()

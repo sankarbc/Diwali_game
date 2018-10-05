@@ -6,9 +6,6 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/splash/splash.unity
-    guid: 4f73bbc4c52efe1459d209a04f6b3506
-  - enabled: 0
     path: Assets/Menu/Menu.unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 0
@@ -17,6 +14,9 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/crackers/cracker1.unity
     guid: f8388b73a14453a46af1e5c808b8ce39
+  - enabled: 0
+    path: Assets/splash/splash.unity
+    guid: 4f73bbc4c52efe1459d209a04f6b3506
   - enabled: 1
     path: Assets/fireworks/Fire_theme.unity
     guid: c221331761a66ae45b44ce036a70ac48
@@ -26,4 +26,16 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/fireworks/Theme2.unity
     guid: 8bb8f9f30cd522340b422d7567487702
+  - enabled: 1
+    path: Assets/fireworks/Theme3.unity
+    guid: e5b17aea45ce1a648be9d4f33b13851e
+  - enabled: 1
+    path: Assets/fireworks/Theme4.unity
+    guid: e3545e472e7aafc4aa18e52b2df44707
+  - enabled: 1
+    path: Assets/fireworks/Theme5.unity
+    guid: e3c15ed674e0c1c4d83bb909f56e52aa
+  - enabled: 1
+    path: Assets/fireworks/Theme6.unity
+    guid: 2864d9953ff3092439f2058f13dd668b
   m_configObjects: {}

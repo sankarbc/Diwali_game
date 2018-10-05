@@ -115,6 +115,9 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
                 SetPageSelection(GetNearestPage());
             }
         }
+
+
+
     }
 
     //------------------------------------------------------------------------
@@ -304,4 +307,6 @@ public class ScrollSnapRect : MonoBehaviour, IBeginDragHandler, IEndDragHandler,
             }
         }
     }
+
+    
 }
